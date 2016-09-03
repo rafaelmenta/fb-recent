@@ -1,13 +1,6 @@
 let Core = {};
 
-const ORDERBY_PARAM = 'sk';
-
-const BASE_PATH = 'https://www.facebook.com';
-
-const TOPNEWS = 'h_nor';
-const NEWSFEED = 'nf';
-const MOST_RECENT = 'h_chr';
-
+let {ORDERBY_PARAM, BASE_PATH, TOPNEWS, NEWSFEED, MOST_RECENT} = require('./constants');
 let URL = require("sdk/url").URL;
 let qs = require('sdk/querystring');
 

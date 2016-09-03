@@ -16,5 +16,18 @@ const STATES = {
   OFF : 'OFF'
 };
 
+const ORDERBY_PARAM = 'sk';
+
+const BASE_PATH = 'https://www.facebook.com';
+
+const TOPNEWS = 'h_nor';
+const NEWSFEED = 'nf';
+const MOST_RECENT = 'h_chr';
+
 exports.ICONS = ICONS;
 exports.STATES = STATES;
+exports.ORDERBY_PARAM = ORDERBY_PARAM;
+exports.BASE_PATH = BASE_PATH;
+exports.TOPNEWS = TOPNEWS;
+exports.NEWSFEED = NEWSFEED;
+exports.MOST_RECENT = MOST_RECENT;
