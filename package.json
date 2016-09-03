@@ -1,0 +1,16 @@
+{
+  "title": "FB Recent",
+  "name": "fb-recent",
+  "version": "0.0.1",
+  "description": "Force facebook home URL to load newsfeed always on most recent sorting.",
+  "main": "index.js",
+  "author": "Rafael Guedes",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
